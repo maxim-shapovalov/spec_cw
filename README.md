@@ -4,11 +4,12 @@
 Необходимо организовать систему учета для питомника в котором живут
 домашние и вьючные животные.
 
-## Задание
-1. Используя команду cat в терминале операционной системы Linux, создать
+
+## 1. Используя команду cat в терминале операционной системы Linux, создать
 два файла Домашние животные (заполнив файл собаками, кошками,
 хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и
-ослы), а затем объединить их. Просмотреть содержимое созданного файла.
+ослы), а затем объединить их. Переименовать файл, дав ему новое имя (Друзья человека). 
+Просмотреть содержимое созданного файла. 
 
 ```sh
 cat > Pets
@@ -30,8 +31,7 @@ cat Human_Friends
 ```
 ![commands](images/linux1.PNG)
 
-Переименовать файл, дав ему новое имя (Друзья человека).
-2. Создать директорию, переместить файл туда.
+## 2. Создать директорию, переместить файл туда. 
 
 ```sh
 mkdir animal
@@ -47,7 +47,7 @@ apt update
 apt install mysql-server
 ```
 ![install mysql](images/linux3.PNG)
-![install mysql](images/linux3-1.PNG)
+![install mysql](images/linux3_1.PNG)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
@@ -56,8 +56,8 @@ wget https://dev.mysql.com/get/mysql-apt-config_0.8.25-1_all.deb
 dpkg -i mysql-apt-config_0.8.25-1_all.deb
 ```
 
-![download debpacket](images/linux3-3.PNG)
-![install debpacket](images/linux3-2.PNG)
+![download debpacket](images/linux3_3.PNG)
+![install debpacket](images/linux3_2.PNG)
 5. Выложить историю команд в терминале ubuntu
 
 ![command history](images/linux_history.PNG)
