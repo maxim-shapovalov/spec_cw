@@ -11,32 +11,32 @@
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 
 ```sh
-cat > pets
+cat > Pets
 dogs
 cats
 hamsters
 ```
 ```sh
-cat > pack_animals
+cat > Pack_Animals
 horses
 camels
 donkeys
 ```
 ```sh
-cat pets pack_animals > friends_man
+cat Pets Pack_Animals > Human_Friends
 ```
 ```sh
-cat friends_man
+cat Human_Friends
 ```
 
 Переименовать файл, дав ему новое имя (Друзья человека).
 2. Создать директорию, переместить файл туда.
 
 ```sh
-mkdir zoo
+mkdir animal
 ```
 ```sh
-mv friends_man zoo
+mv Human_Friends animal
 ```
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
@@ -56,4 +56,4 @@ dpkg -i mysql-apt-config_0.8.25-1_all.deb
 ```
 5. Выложить историю команд в терминале ubuntu
 
-![Alt text](images/linux_history.png)
+![Alt text](images/linux_history.PNG)
