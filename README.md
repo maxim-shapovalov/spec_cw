@@ -17,17 +17,18 @@ cats
 hamsters
 ```
 ```sh
-cat > Pack_Animals
+cat > Pack_animals
 horses
 camels
 donkeys
 ```
 ```sh
-cat Pets Pack_Animals > Human_Friends
+cat Pets Pack_animals > Human_Friends
 ```
 ```sh
 cat Human_Friends
 ```
+![commands](images/linux1.PNG)
 
 Переименовать файл, дав ему новое имя (Друзья человека).
 2. Создать директорию, переместить файл туда.
@@ -38,15 +39,15 @@ mkdir animal
 ```sh
 mv Human_Friends animal
 ```
-
+![commands](images/linux2.PNG)
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
 
 ```sh
-
-
 apt update
 apt install mysql-server
 ```
+![comand history](images/linux3.PNG)
+![comand history](images/linux4.PNG)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
@@ -56,4 +57,4 @@ dpkg -i mysql-apt-config_0.8.25-1_all.deb
 ```
 5. Выложить историю команд в терминале ubuntu
 
-![Alt text](images/linux_history.PNG)
+![comand history](images/linux_history.PNG)
