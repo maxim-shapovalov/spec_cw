@@ -1,0 +1,13 @@
+  574  cat > Pets
+  575  cat Pets
+  576  cat > Pack_animals
+  577  cat Pack_animals
+  578  cat Pets Pack_animals > Human_Friends
+  579  cat Human_Friends
+  580  mkdir animal
+  581  mv Human_Friends animals
+  582  ls animals
+  583  sudo apt update
+  584  sudo apt install mysql-server
+  595  wget https://dev.mysql.com/get/mysql-apt-config_0.8.25-1_all.deb
+  596  sudo dpkg -i mysql-apt-config_0.8.25-1_all.deb
