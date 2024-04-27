@@ -46,8 +46,8 @@ mv Human_Friends animal
 apt update
 apt install mysql-server
 ```
-![comand history](images/linux3.PNG)
-![comand history](images/linux4.PNG)
+![install mysql](images/linux3.PNG)
+![install mysql](images/linux3-1.PNG)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
@@ -55,6 +55,9 @@ apt install mysql-server
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.25-1_all.deb
 dpkg -i mysql-apt-config_0.8.25-1_all.deb
 ```
+
+![download debpacket](images/linux3-3.PNG)
+![install debpacket](images/linux3-2.PNG)
 5. Выложить историю команд в терминале ubuntu
 
-![comand history](images/linux_history.PNG)
+![command history](images/linux_history.PNG)
